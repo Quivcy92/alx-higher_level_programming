@@ -106,18 +106,18 @@ TypeError print_sorted when method is given 1 argument
 ::
 
     >>> my_list = MyList()
-    >>> my_list.append("Edward")
-    >>> my_list.append("Ortiz")
-    >>> my_list.append("Jhon")
-    >>> my_list.append("Doe")
-    >>> my_list.append("Mr Puffles")
+    >>> my_list.append("Sotonye")
+    >>> my_list.append("Solomon")
+    >>> my_list.append("Quincy")
+    >>> my_list.append("Ghost")
+    >>> my_list.append("ALX")
     >>> print(my_list)
-    ['Edward', 'Ortiz', 'Jhon', 'Doe', 'Mr Puffles']
+    ['Sotonye', 'Solomon', 'Quincy', 'Ghost', 'ALX']
 
 ::
 
     >>> my_list.print_sorted()
-    ['Doe', 'Edward', 'Jhon', 'Mr Puffles', 'Ortiz']
+    ['Ghost', 'Sotonye', 'Quincy', 'ALX', 'Solomon']
 
 ::
 
@@ -127,7 +127,7 @@ TypeError print_sorted when method is given 1 argument
 
 ::
 
-    >>> my_list = MyList([3, "Edward", "Ortiz", 2])
+    >>> my_list = MyList([3, "Sotonye", "Solomon", 2])
     >>> my_list.print_sorted()
     Traceback (most recent call last):
     TypeError: unorderable types: str() < int()
